@@ -10,4 +10,17 @@ A very simple and straightforward architecture to build an infrastructure that i
 * Auto-Scaled
 * Highly Available
 
+For using the code, clone the repo and then use the following commands: 
 
+```bash
+
+terraform init
+
+terraform plan
+
+terraform apply 
+
+```
+
+* Make sure you have AWS CLI and Terraform installed
+* Please make sure to have your credentials using the command `aws configure` 
